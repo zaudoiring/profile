@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode : 'class', 
   theme: {
     fontFamily: {
       primary: 'Orbitron',
@@ -20,14 +21,16 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0a0a0a',
-        accent: '#B809C3',
+        accent: '#10b981',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
+        side: "url('./assets/side.jpg')",
+        white: "url('./assets/white.jpg)",
+        about: "url('./assets/pf.png')",
         services: "url('./assets/services.png')",
       },
     },
   },
   plugins: [],
+  darkMode: 'class',
 };
